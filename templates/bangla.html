@@ -1,0 +1,69 @@
+
+
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Quotes Collection by Zarif</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <script data-ad-client="ca-pub-6608867684077790" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+    <body >
+        
+
+<!-- Image and text -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="home.html"><h2>Quotes Collection</h2></a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="about.html">About us <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://bd.linkedin.com/in/sadman-zarif-051759194?trk=people-guest_profile-result-card_result-card_full-click">my linkedin</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+    {% for bangs in bang %}
+    <div class="row">
+        <div class="col">
+    <h5 class="card-title">{{ bangs.title }}</h5>
+        <div class="card" style="width: 18rem;">
+        <img src="{{ bangs.image }}" class="card-img-top" alt="...">
+        <div class="card-body">   
+    <p class="card-text">{{ bangs.author }}</p>
+    </div>
+    
+    
+</div>
+</div>
+</div>
+{% endfor %}
+</div>
+<br>
+    
+
+
+
+<div class="col-sm-4">
+                <p>
+                    Developed by
+                    <a href="https://bd.linkedin.com/in/sadman-zarif-051759194?trk=people-guest_profile-result-card_result-card_full-click" target="_blank">Sadman Islam Zarif</a>
+                    <br> ©  2019
+                    <a href="https://bd.linkedin.com/in/sadman-zarif-051759194?trk=people-guest_profile-result-card_result-card_full-click" target="_blank">Sadman Islam Zarif</a>
+                </p>
+            </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    </body>
+</html>
